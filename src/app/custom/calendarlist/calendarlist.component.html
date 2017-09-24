@@ -1,0 +1,9 @@
+<ul class='calendarlist'>
+  <li *ngFor="let item of items; let i = index; let odd=odd; let even=even " [ngClass]="{ odd: odd, even:even}">
+      <img src="https://dummyimage.com/200x200/000000/fff&text={{item.firstletter}}" />
+      <div class='content'>
+	      <h3>{{item.due_time | date:'shortDate'}}</h3>
+	      <p>{{item.data}}</p>
+      </div>
+  </li>
+</ul>

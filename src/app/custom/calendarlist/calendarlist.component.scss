@@ -1,0 +1,52 @@
+ul.calendarlist {
+	* {margin: 0; padding: 0;}
+
+	h3 {
+	  text-align: left;
+	}
+	 
+	div {
+	  margin: 10px;
+	}
+	 
+	ul {
+	  list-style-type: none;
+	  width: 500px;
+	}
+	 
+	li img {
+	  border-radius: 20px;
+	  float: left;
+	  height: 50px;
+	  margin: 0 15px 0 0;
+	  border: 3px solid white;
+	}
+	 
+	li p {
+	  font: 200 12px/1.5 Georgia, Times New Roman, serif;
+	  text-align: justify
+	}
+	 
+	li {
+	  padding: 10px;
+	  overflow: auto;
+	  flex-direction: row;
+	  display: flex;
+	  background-color: rgba(255, 255, 255, 0.8);
+	  border-radius: 20px;
+	  margin: 5px;
+	}
+
+	li.even {
+	    background-color: #E3F2FD;
+	}
+
+	li.odd {
+	    background-color: #BBDEFB;
+	}
+	 
+	li:hover {
+	  opacity: .8;
+	  cursor: pointer;
+	}
+}

@@ -12,6 +12,8 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
+import { CalendaritemComponent } from './custom/calendaritem/calendaritem.component';
+import { CreateitemComponent } from './custom/createitem/createitem.component';
 
 @NgModule({
   imports: [
@@ -26,7 +28,7 @@ import { AboutModule } from './about/about.module';
     AboutModule,
     AppRoutingModule
   ],
-  declarations: [AppComponent],
+  declarations: [AppComponent, CalendaritemComponent, CreateitemComponent],
   providers: [
   ],
   bootstrap: [AppComponent]
